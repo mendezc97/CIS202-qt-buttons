@@ -15,10 +15,14 @@ public:
 
 public slots:
     void onbutton1Press();
+    void onbutton2Press();
 
 private:
     QPushButton *button1;
     QLabel *label1;
+    QPushButton *button2;
+    QLabel *label2;
+
 
 };
 
